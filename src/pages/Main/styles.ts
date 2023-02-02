@@ -87,59 +87,6 @@ const Content = styled.div`
   height: 100%;
   width: 100%;
   padding: 0px 50px 0px 150px;
-
-  #content-advertisement {
-    width: 100%;
-    height: 150px;
-    border-radius: 30px;
-    padding: 35px 0px 0px 50px;
-    margin: 30px 30px 30px 0px;
-
-    color: white;
-    background-color: #fb9300;
-
-    overflow: hidden;
-    position: relative;
-
-    strong {
-      font-size: xx-large;
-      display: block;
-    }
-    span {
-      width: 60%;
-      display: inline-block;
-      margin-top: 10px;
-    }
-
-    img {
-      position: absolute;
-      width: 40%;
-      top: -55%;
-      left: 60%;
-    }
-  }
-
-  #content-title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    position: relative;
-    color: #fb9300;
-
-    a {
-      color: inherit;
-    }
-    span {
-      position: absolute;
-      left: 0%;
-      color: black;
-      opacity: 80%;
-      font-weight: lighter;
-      font-size: xx-large;
-      margin-right: 0px auto;
-    }
-  }
 `;
 
 const Dash = styled.div`

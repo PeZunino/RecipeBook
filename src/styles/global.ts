@@ -22,6 +22,7 @@ body{
   button {
     background-color: transparent;
     border: 0px;
+    cursor: pointer;
   }
 }
 h1 , h2 , h3 {

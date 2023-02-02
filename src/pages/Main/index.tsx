@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Content, Dash, Menu } from "./styles";
 import { RxDashboard } from "react-icons/rx";
 import { CgNotes } from "react-icons/cg";
-import { BsArrowRightShort, BsHeart } from "react-icons/bs";
+import { BsHeart } from "react-icons/bs";
 import { HiUserGroup } from "react-icons/hi";
 import { FiSettings } from "react-icons/fi";
 import Salad from "../../assets/salad.avif";
 import SearchBar from "../../components/SearchBar";
-import Homemade from "../../assets/homemade.png";
 
 const Main: React.FC = () => {
   return (
@@ -48,21 +47,6 @@ const Main: React.FC = () => {
 
       <Content>
         <SearchBar />
-
-        <div id="content-advertisement">
-          <strong>Add your own recipe</strong>
-          <span>
-            Upload your own home-made recipe, and share it with other members of
-            our community
-          </span>
-          <img src={Homemade} alt="eating-cake" />
-        </div>
-
-        <div id="content-title">
-          <span>Based on the type of food you like</span>
-          <a>View More </a>
-          <BsArrowRightShort size={25} />
-        </div>
       </Content>
 
       <Dash>
